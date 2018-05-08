@@ -1,0 +1,42 @@
+body{
+	background-color:#a0a097;
+}
+.container{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question{
+	flex:1;
+	border:1px solid #a6a6a6;
+	width:200px;
+	display:flex;
+	flex-wrap: wrap;
+
+}
+.answer{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-items:center; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	width:49%;
+	border:1px solid #738473;
+	height:50px;
+	cursor:pointer;
+	
+}
+.question-txt{
+	width:100%;
+}
+.correct{
+	background-color:greenyellow;
+}
+.mistake{
+	background-color:red;
+}
+.typed{
+	background-color:gray;
+}
