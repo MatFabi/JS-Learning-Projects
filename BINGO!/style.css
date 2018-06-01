@@ -1,0 +1,29 @@
+.bingo__table{
+	border=1px;
+	padding:10px;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+td{
+	padding:10px;
+	margin: 0 auto;
+	border: 2px solid black;
+	min-width: 40px;
+	min-height: 40px;
+}
+.btns{
+text-align: center;
+}
+
+.Free{
+	background-color:#d4d4d4;
+}
+.bingoTitle{
+	display:none;
+	text-align: center;
+	color: #01e31b;
+	width:100%;
+}
+.display{
+	display: block;
+}
